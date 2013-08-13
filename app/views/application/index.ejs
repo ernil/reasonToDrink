@@ -1,6 +1,4 @@
 <h1>Reason to drink</h1>
-<% reason.forEach(function (r) { %>
-	<h2><%= r.title %></h2>
-	<p><%= r.random %></p>
-<% }); %>
-	<p><%= rand %></p>
+<h2 class="reason-title"><%= reason.title %></h2>
+<p class="reason-rand"><%= reason.random %></p>
+<a id="get-next" href="#">Get next reason</a>
