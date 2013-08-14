@@ -14,7 +14,6 @@
         url: '/application/index.json',
         success: function(data) {
           console.log(data);
-          console.log(data.data.title);
           $('.reason-title').text(data.data.title);
           return $('.reason-rand').text(data.data.random);
         }

@@ -1,0 +1,9 @@
+!!!
+html
+	head
+		title 'Reason to drink!'
+		!= javascriptIncludeTag('jquery.min', 'bootstrap', 'rails', 'application') 
+		!= stylesheetLinkTag('bootstrap', 'application', 'bootstrap-responsive')
+		!= csrfMetaTag()
+	body
+		!= body	

@@ -11,5 +11,6 @@ $(document).ready ()->
       dataType: 'json'
       url: '/application/index.json'
       success: (data)->
+        console.log data
         $('.reason-title').text data.data.title
         $('.reason-rand').text data.data.random
